@@ -1,0 +1,14 @@
+.box{ 
+background-color:green; 
+color: yellow; 
+width:100px; 
+height:100px; 
+margin-bottom:50px; 
+} 
+
+div{
+   padding-top: 50px; 
+   padding-right: 30px; 
+   padding-bottom: 50px;
+   padding-left: 80px; 
+}
