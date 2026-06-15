@@ -7,20 +7,18 @@
     <title>Portofolio Tugas - Siti Novi Triani</title>
     <style>
         body {
-            margin: 0;
+            margin: 5%;
             padding: 40px 20px;
             font-family: 'Segoe UI', Arial, sans-serif;
             background: linear-gradient(135deg, #94afc4 0%, #6d8ba6 100%);
-            background-attachment: fixed;
-            min-height: 100vh;
             color: #333;
             box-sizing: border-box;
         }
 
         .portfolio-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); 
-            gap: 25px; 
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -64,30 +62,28 @@
 
         #back {
             background-color: rgba(248, 248, 248, 0.669);
-            width: 80px;
-            height: 35px;
-            line-height: 35px;
+            width: 120px;
+            height: 45px;
+            line-height: 45px;
             text-align: center;
             border-radius: 8px;
-            margin: 40px auto 0 auto; /* Memberi jarak dari baris portfolio di atasnya */
-            display: block;
+            margin: 40px auto 0 auto;
             transition: 0.3s;
         }
 
         #back a {
             text-decoration: none;
-            color: #6d8ba6; /* Mengubah teks agar terlihat di latar putih transparan */
+            color: #6d8ba6;
             font-weight: bold;
-            display: block;
         }
 
         #back:hover {
             opacity: 0.9;
             background-color: #94afc4;
         }
-        
+
         #back:hover a {
-            color: white; /* Mengubah teks menjadi putih saat di-hover */
+            color: white;
         }
     </style>
 </head>
@@ -144,9 +140,11 @@
             </div>
         </div>
 
-    </div> <div id="back">
-        <a href="index.php">back</a>
     </div>
-    
+    <div id="back">
+        <a href="index.php">Back</a>
+    </div>
+
 </body>
+
 </html>

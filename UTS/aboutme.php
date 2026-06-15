@@ -9,13 +9,9 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <style>
-    body{
+body{
     margin: 0;
     padding: 0;
-}
-
-p{
-    text-align: justify;
 }
 #box{
     width: 1000px;
@@ -39,6 +35,31 @@ p{
 #footer{
     background-color: #94afc4;
     padding: 20px;
+}
+#back {
+            background-color: rgba(160, 181, 222, 0.67);
+            width: 120px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 40px auto 0 auto;
+            transition: 0.3s;
+}
+
+#back a {
+            text-decoration: none;
+            color: #1c1f21;
+            font-weight: bold;
+}
+
+#back:hover {
+            opacity: 0.9;
+            background-color: #94afc4;
+}
+
+#back:hover a {
+            color: white;
 }
 </style>
 <body>
@@ -74,6 +95,9 @@ p{
          <div id="footer2" align="center">
              &copy; Siti Novi Triani. All rights reserved.
          </div>
+          <div id="back">
+        <a href="index.php">Back</a>
+    </div>
 </body>
 </body>
 </html>
